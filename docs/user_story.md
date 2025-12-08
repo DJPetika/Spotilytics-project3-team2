@@ -1,4 +1,6 @@
-# Spotilytics User Stories (Unified Format)
+# Spotilytics User Stories
+
+## Total Story points: 53
 
 ## Sprint 1
 
