@@ -204,9 +204,9 @@ Selecting a track updates:
 
 ---
 
-### **13. Compare My Playlist With a Friend (Overlap Score)**
+### **13. Compare My Playlist With a Friend (Overlap Track)**
 
-**Points:** 3  
+**Points:** 2  
 **Issue:** https://github.com/tamu-edu-students/Spotilytics-project3-team2/issues/13
 
 **User Story:**  
@@ -254,3 +254,25 @@ As a user I would like the ability to choose the number of songs in my history f
 
 **User Story:**  
 As a user I would like the ability to see the most recent songs that I have listened to on my hourly listening history page.
+
+### **17. Compare My Playlist With a Friend — Compatibility Score**
+
+**Points:** 3
+**Issue:**
+https://github.com/tamu-edu-students/Spotilytics-project3-team2/issues/34
+
+**User Story:**
+As a user, I want to see a compatibility score between two playlists based on audio features, so I can understand how similar they feel even if we don’t share many tracks.
+
+**Acceptance Criteria:**
+Scenario: Viewing compatibility with overlap
+Given Spotify playlists A and B return tracks with overlap
+And ReccoBeats returns feature vectors for playlists A and B
+When I visit “/playlists/compare?source_id=plA&target_id=plB”
+Then I should see “Playlist Compatibility”
+And I should see “Playlist A: plA”
+And I should see “Playlist B: plB”
+And I should see “Common tracks: 2”
+And I should see “Compatibility”
+And I should see “100%”
+And I should see “Why these playlists vibe”
