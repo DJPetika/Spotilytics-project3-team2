@@ -90,7 +90,7 @@ As a user, I want a calendar heatmap of my listening activity (using recently pl
 
 ---
 
-### ** Playlist Split by Genre**
+### **6. Playlist Split by Genre**
 
 **Points:** 5
 **Issue:** https://github.com/tamu-edu-students/Spotilytics-project3-team2/issues/5
@@ -299,7 +299,7 @@ And I should see “Why these playlists vibe”
 
 ----
 
-### Shareable Playlist Genre Report Link**
+### **18. Shareable Playlist Genre Report Link**
 
 **Points:** 3
 **Issue:** https://github.com/tamu-edu-students/Spotilytics-project3-team2/issues/2
@@ -316,7 +316,7 @@ As a user, I want a share button on the genre breakdown page so I can copy a per
 
 ---
 
-### Wrapped Story Feature (Spotify Wrapped Style)**
+### **19. Wrapped Story Feature (Spotify Wrapped Style)**
 
 **Points:** 3
 **Issue:** https://github.com/tamu-edu-students/Spotilytics-project3-team2/issues/6
