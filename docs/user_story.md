@@ -73,6 +73,7 @@ As a returning Spotify user, I want to see how my top tracks evolve across multi
 
 ### **5. Global Search Feature (Spotify Search API)**
 
+**Points:** 3
 **Issue:** https://github.com/tamu-edu-students/Spotilytics-project3-team2/issues/3
 
 **User Story:**  
@@ -88,6 +89,25 @@ As a user, I want to search for songs, artists, or albums via Spotify’s Search
 As a user, I want a calendar heatmap of my listening activity (using recently played timestamps), similar to GitHub commits.
 
 ---
+
+### ** Playlist Split by Genre**
+
+**Points:** 5
+**Issue:** https://github.com/tamu-edu-students/Spotilytics-project3-team2/issues/5
+
+**User Story:**
+As a Spotify user, I want to split a playlist into new playlists by genre so I can organize music based on moods or themes.
+
+**Acceptance Criteria:**
+
+* User clicks **“Split by Genre”** on the genre breakdown page.
+* System creates new playlists on Spotify:
+
+  * One playlist per genre containing matching tracks.
+* User sees confirmation + list of generated playlists.
+* If playlist has no genres, show an error.
+
+----
 
 ## Sprint 2
 
@@ -276,3 +296,51 @@ And I should see “Common tracks: 2”
 And I should see “Compatibility”
 And I should see “100%”
 And I should see “Why these playlists vibe”
+
+----
+
+### Shareable Playlist Genre Report Link**
+
+**Points:** 3
+**Issue:** https://github.com/tamu-edu-students/Spotilytics-project3-team2/issues/2
+
+**User Story:**
+As a user, I want a share button on the genre breakdown page so I can copy a permanent link to share the results with friends.
+
+**Acceptance Criteria:**
+
+* A “Share” button appears on the genre breakdown page.
+* Clicking it copies the public sharable link (Rails-only, no JS copy).
+* Friends can open the link without logging in.
+* Page displays the original playlist link to Spotify.
+
+---
+
+### Wrapped Story Feature (Spotify Wrapped Style)**
+
+**Points:** 3
+**Issue:** https://github.com/tamu-edu-students/Spotilytics-project3-team2/issues/6
+
+**User Story:**
+As a Spotify user, I want a “Wrapped”-style storytelling slideshow summarizing my year in music so that the app feels fun, interactive, and personal.
+
+**Acceptance Criteria:**
+
+* System generates a slide deck containing:
+
+  * Top track
+  * Top artist
+  * Top genres
+  * Listening mood summaries
+  * Fun stats
+* Slides autoplay but can be navigated manually.
+* Each slide shows:
+
+  * Title
+  * Subtitle
+  * Image (album/artist)
+  * Optional metadata like popularity, preview link
+* Works without JS fallback by showing a static summary page.
+* Appears as **“Wrapped”** in navbar.
+
+
