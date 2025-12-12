@@ -49,6 +49,9 @@ gem "rspotify", "~> 2.11"
 
 gem "dotenv-rails", groups: [ :development, :test ]
 
+  # Use sqlite3 as the database for Active Record
+  gem "sqlite3", ">= 2.1"
+  
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 group :production do
@@ -78,8 +81,6 @@ group :development, :test do
   # (Optional) For writing tests in a more expressive way
   gem "factory_bot_rails"
 
-  # Use sqlite3 as the database for Active Record
-  gem "sqlite3", ">= 2.1"
 end
 
 group :development do
